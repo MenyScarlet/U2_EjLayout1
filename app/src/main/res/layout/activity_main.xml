@@ -11,9 +11,9 @@
 
     <Button
         android:id="@+id/Boton"
+        android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:background="#F5F6CE"
         android:text="Button" />
 
