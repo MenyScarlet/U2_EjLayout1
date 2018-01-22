@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LLV"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B0B39"
+    android:orientation="vertical"
+    tools:context="com.example.didact.u2_ejlayout1.MainActivity">
+
+    <Button
+        android:id="@+id/Boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#F5F6CE"
+        android:text="Button" />
+
+    <LinearLayout
+        android:id="@+id/LLH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#F5A9E1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Boton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/Boton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/Boton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLH2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#A9F5D0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Boton5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+
+        <LinearLayout
+            android:id="@+id/LLH3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                tools:text="Melania " />
+
+            <TextView
+                android:id="@+id/Text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                tools:text="Hola que tal?" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
