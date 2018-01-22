@@ -22,8 +22,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
         android:background="#F5A9E1"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="16dp">
 
         <Button
             android:id="@+id/Boton1"
@@ -76,6 +79,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="TextView"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textColor="@android:color/black"
+                android:textStyle="bold|italic"
                 tools:text="Melania " />
 
             <TextView
